@@ -1,0 +1,394 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+
+
+   <link rel="stylesheet" href="style.css">
+
+
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!--bootstrap link-->
+     
+
+    <!-- Font Awesome Cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap" 
+rel="stylesheet">
+    <!--Google Fonts-->
+
+</head>
+<body>
+    <!--Navbar starts-->
+    <nav class="navbar navbar-expand-lg"  id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"id="logo"><span>T</span>ravel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+             </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!--Navbar ends-->
+<!--Home Section Start-->
+<div class="home">
+<div class="content">
+  <h5>Discover. Explore. Dream. Your adventure starts here!</h5>
+  <!--<h1>Visit <span class="changecontent"></span></h1>-->
+  <p>The journey of a thousand miles begins with a single step</p>
+  <a href="#book">Reserve your spot</a>
+</div>
+</div>
+<!--Home Section End-->
+
+<!--Section Book Start-->
+<section class="book" id="book">
+<div class="container">
+  <div class="main-text">
+    <h1><span>R</span>egister</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-6 py-3 py-md-0">
+      <div class="card">
+        <img src="./book1.jpg!f305cw" alt="">
+      </div>
+    </div>
+    <div class="col-md-6 py-3 py-md-0">
+      <form action="#">
+        <input type="text" class="form-control" placeholder="Where To" required><br>
+        <input type="text" class="form-control" placeholder="How Many" required><br>
+        <input type="date" class="form-control" placeholder="Arrivals" required><br>
+        <input type="date" class="form-control" placeholder="Leaving" required><br>
+      <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name And Detials"></textarea>
+      <input type="submit" value="Register Now" class="submit" required>
+      </form>
+  </div>
+</div>
+</section>
+<!--Section Book End-->
+
+<!--section packages starts-->
+
+<section class="packages" id="packages">
+  <div class="container">
+    <div class="main-txt">
+    <h1><span>O</span>ffers</h1>  
+    </div>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./uk.jpg" alt="">
+          <div class="card-body">
+            <h3>United Kingdom</h3>
+            <p>The English are not a very spiritual people, so they invented cricket to give them some idea of eternity.</p>
+            <div class="star"></div>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star "></i>
+            <h6>Price:<strong>$500</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./spian.jpg" alt="">
+            <div class="card-body">
+              <h3>Spian</h3>
+              <p>In Spain, the sun always shines, the food always delights, and the passion for life never fades</p>
+              <div class="star"></div>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star "></i>
+              <h6>Price:<strong>$500</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+        </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./china.jpg" alt="">
+              <div class="card-body">
+                <h3>China</h3>
+                <p>China’s landscapes are poetry in motion, from the peaks of Guilin to the rivers of Yunnan</p>
+                <div class="star"></div>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+                <h6>Price:<strong>$800</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+       
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./italy.jpg" alt="">
+          <div class="card-body">
+            <h3>Italy</h3>
+            <p>To live in Italy is to fall in love with the simple pleasures of life—food, wine, art, and history</p>
+            <div class="star"></div>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star "></i>
+            <h6>Price:<strong>$700</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./germany.jpeg" alt="">
+            <div class="card-body">
+              <h3>Germany</h3>
+              <p>In Germany, every corner tells a story, and every meal is an unforgettable feast.</p>
+              <div class="star"></div>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star "></i>
+              <h6>Price:<strong>$500</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+        </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./pakistan.jpg" alt="">
+              <div class="card-body">
+                <h3>Pakistan</h3>
+                <p>Pakistan a country where the past whispers,the future beckons, and the present is full of life.</p>
+                <div class="star"></div>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+                <h6>Price:<strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+</section>
+<!--section packages ends-->
+<!--Section Services Starts-->
+<section class="services" id="services">
+  <div class="container">
+
+
+    <div class="main-txt">
+      <h1><span>F</span>acilities</h1>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <i class="fas fa-hotel"></i> 
+      <div class="card-body">
+        <h3>Budget Accommodation</h3>
+      
+        <p>Comfortable accommodations at a reasonable price, making it an ideal choice for budget-conscious travelers.</p>
+      </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+        <i class="fas fa-utensils"></i> 
+        <div class="card-body">
+          <h3>Meals And Refreshments</h3>
+          <p>The menu offers a wide variety of foods and drinks, ranging from savory dishes to refreshing beverages. </p>
+        </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+          <i class="fas fa-bullhorn"></i> 
+          <div class="card-body">
+            <h3>Safety Protocol</h3>
+            <p>Safety protocols are guidelines designed to ensure the protection of individuals in various environments. </p>
+          </div>
+            </div>
+          </div>
+
+    </div>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+      <i class="fas fa-globe-asia"></i> 
+      <div class="card-body">
+        <h3>Across The Globe</h3>
+        <p>Around the world, people experience  and adventures that enrich their lives and broaden their perspectives. </p>
+      </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+        <i class="fas fa-plane"></i> 
+        <div class="card-body">
+          <h3>Quick Trip</h3>
+          <p>A quick trip can offer a refreshing escape, allowing you to explore new places in a short amount of time. </p>
+        </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+          <i class="fas fa-hiking"></i> 
+          <div class="card-body">
+            <h3>Explorations</h3>
+            <p>Explorations allow us to discover new places, ideas, and experiences, expanding our understanding of the world. </p>
+          </div>
+            </div>
+          </div>
+          
+    </div>
+  </div>
+</section>
+
+<!--Section Services Ends-->
+<!--Section Gallery Starts-->
+<section class="gallery" id="gallery">
+<div class="container">
+  <div class="main-txt">
+    <h1><span>G</span>allery</h1>
+  </div>
+<div class="row" style="margin-top: 30px;">
+<div class="col-md-4 py-3 py-md-0">
+<div class="card">
+  <img src="./turkey.avif" alt="" height="230px">
+</div>
+</div>
+<div class="col-md-4 py-3 py-md-0">
+  <div class="card">
+    <img src="./india.avif" alt="" height="230px">
+  </div>
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./us.jpg" alt="" height="230px">
+    </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./g1.jpg" alt="" height="230px">
+      </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./g2.webp" alt="" height="230px">
+        </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./g3.jpg" alt="" height="230px">
+          </div>
+          </div>
+</div>
+
+</div>
+</section>
+<!--Section Gallery Ends-->
+<!--About Starts-->
+<section class="about"id="about">
+ <div class="container">
+  <div class="main">
+    <div class="main-txt">
+      <h1>About <span> Us</span></h1>
+    </div>
+    <div class="row" style="margin-top: 50px;">
+    <div class="col-md-6 py-3 py-md-0">
+     <div class="card">
+      <img src="./book.webp" alt="">
+
+     </div>
+    </div>
+    <div class="col-md-6 py-3 py-md-0">
+      <h2>How Travel Agencies Operate</h2>
+      <p>Travel is a gateway to discovering the world’s wonders, offering opportunities to explore new cultures, 
+        landscapes, and experiences. It broadens horizons, fosters connections, and creates memories that last a lifetime.
+         Whether it's wandering through bustling city streets, trekking across serene mountains, or relaxing on sun-kissed beaches,
+          travel inspires a sense of adventure and renewal. Beyond the physical journey, it enriches the soul by challenging perspectives
+           and sparking personal growth. Every destination tells a story,
+         and each trip becomes a chapter in your own tale of exploration and discovery.</p>
+      <button id="about-btn">Read More....</button>
+    </div>
+    </div>
+  </div>
+ </div>
+</section>
+<!--About Ends-->
+<!--Footer Starts-->
+<footer id="footer">
+  <h1><span>T</span>ravel</h1>
+  <p>Feel free to reach out to us for any inquiries or assistance.</p>
+  <div class="social-links">
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-pinterest-p"></i>
+  </div>
+  <div class="credit">
+    <p>Crafted By<a href="#">SExplores</a></p>
+  </div>
+  <div class="copyright">
+    <p>&copy;Copyright SExplores. All Rights Reserved</p>
+  </div>
+  <div  class="icon arrowup"><a href="" target="_blank"><i class="fa-solid fa-angle-up brand"></i></a></div>
+</footer>
+
+
+
+
+
+<!--Footer Ends-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
